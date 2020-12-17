@@ -1,0 +1,214 @@
+#main-box::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+/*首部固定位置*/
+.top-status {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  top: 0;
+  left: 0;
+  background: rgba(34,34,34,0.74);
+  width: 100%;
+  height: 10vh;
+}
+.top-status-innerLeft{
+  text-align: center;
+  line-height: 10vh;
+  padding-left: 1vh;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 2em;
+}
+
+
+
+.cityName {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 10vh;
+  color: white;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  font-size: 1.4em;
+}
+/*显示当前温度的大字*/
+.tempNumber {
+  margin-top: 10vh;
+  width: 100%;
+  height: 50vh;
+  color: white;
+  text-align: center;
+  line-height: 30vh;
+  font-size: 8em;
+
+}
+.tempNumber-body {
+  padding-left: 3vw;
+  padding-top: 10vh;
+  font-family: "Microsoft YaHei";
+  font-weight: lighter;
+}
+.temp-weather {
+  height: 10vh;
+  line-height: 0;
+  padding-top: 0;
+  font-size: 0.1em;
+}
+.airQuality {
+  flex: 1;
+  color: white;
+  line-height: 1.7;
+  padding-left: 6vw;
+  font-family: "Microsoft YaHei";
+}
+.temp-Lower-Num {
+  flex: 1;
+  color: white;
+  line-height: 1.7;
+  text-align: center;
+  padding-left: 10vw;
+  font-family: "Microsoft YaHei";
+}
+/*不同时间下风力等级*/
+.windForceBorder {
+  width: 100vw;
+  height: 25vh;
+  overflow: auto;
+  white-space: nowrap;
+}
+.windForce {
+  overflow: auto;
+  display: inline-block;
+  width: 15vw;
+  height: 20vh;
+  margin: 10px;
+  background-color: rgba(34,34,34,0.26);
+}
+/*时间div*/
+.wind-time {
+   width: 100%;
+   overflow: auto;
+   margin: auto;
+  text-align: center;
+   color: wheat;
+   font-family: "Microsoft YaHei";
+ }
+/*温度div*/
+.wind-temp {
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 2vh 0;
+}
+/*天气对应图标 */
+.wind-icon {
+  width: 100%;
+  color: white;
+  font-size: 8vw;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+/*风力等级 */
+.wind-level {
+  width: 100%;
+  color: white;
+  font-size: inherit;
+  text-align: center;
+}
+
+
+ /*最下面的上面一个显示的其他功能*/
+.anotherSmallBox {
+  width: 95vw;
+  height: 26vh;
+  border-top: lightgray 1px solid;
+  margin: 3vh auto;
+}
+.small-up-box {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.small-up-box-inside {
+  flex: 1;
+  font-size: 0.5em;
+  padding-left: 3vw;
+  margin-top: 3vh;
+  color: wheat;
+  height: 100%;
+}
+.small-middle-box {
+  margin-top: 5vh;
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.small-middle-box-inside {
+  flex: 1;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 3vh;
+  color: white;
+}
+.small-down-box {
+  width: 100%;
+  display: flex;
+}
+.small-down-box-inside {
+  flex: 1;
+  font-size: 0.5em;
+  text-align: center;
+  color: white;
+}
+
+
+
+/*最底下的东西*/
+.anotherBox {
+  width: 95vw;
+  height: 35vh;
+  background-color: lightgray;
+  border-radius: 3%;
+  margin: 3vh auto;
+}
+
+.anotherBox-one {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.anotherBox-two {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.anotherBox-inside {
+  overflow: auto;
+  flex: 1;
+}
+.inside-icon {
+  font-family: "Microsoft YaHei";
+
+  width: 30%;
+  height: 30%;
+  margin: 2vh auto ;
+  color: white;
+  font-size: 2em;
+}
+.inside-words {
+  font-family: "Microsoft YaHei";
+
+  text-align: center;
+  width: 80%;
+  height: 20%;
+  margin: 1vh auto ;
+  color: white;
+  font-size: 0.7em;
+}
+
